@@ -26,18 +26,23 @@ The system integrates multiple sensors and provides a live monitoring dashboard,
 - 🤖 ESP32 Dev Board (Controller)
 📏 Ultrasonic Sensor (Distance)
 - 👣 PIR Sensor (Motion Detection)
-🔊 Sound Sensor
-📍 Proximity Sensor
-❤️ Pulse Sensor (Heart Rate)
-📟 OLED Display
-⚙️ Motor Driver + Motors
-🔔 Buzzer
-💻 Tech Stack
-Embedded Systems: Arduino IDE (C/C++)
-Communication: WiFi (HTTP Protocol)
-AI Integration: TensorFlow Lite (optional)
-Frontend: HTML, CSS, JavaScript
-IoT Concepts: Real-time monitoring & automation
+- 🔊 Sound Sensor
+- 📍 Proximity Sensor
+- ❤️ Pulse Sensor (Heart Rate)
+- 📟 OLED Display
+- ⚙️ Motor Driver + Motors
+- 🔔 Buzzer
+- 💻 Tech Stack
+
+---
+
+
+## 💻 Software Stack
+- Embedded Systems: Arduino IDE (C/C++)
+- Communication: WiFi (HTTP Protocol)
+- AI Integration: TensorFlow Lite (optional)
+- Frontend: HTML, CSS, JavaScript
+- IoT Concepts: Real-time monitoring & automation
 🔄 Working Flow
 
 1️⃣ ESP32-CAM captures environment
