@@ -28,26 +28,24 @@ An AI-powered IoT + Robotics system that detects human falls using ESP32-CAM and
 ---
 
 ## 🔧 Hardware Components
-- ESP32-CAM (AI Vision Node)
-- ESP32 Dev Board (Controller)
-- Ultrasonic Sensor (Distance)
-- PIR Sensor (Motion Detection)
-- Sound Sensor
-- Proximity Sensor
-- Pulse Sensor (Heart Rate)
-- OLED Display
-- Motor Driver + DC Motors
-- Buzzer
-
+- 📷 ESP32-CAM
+- 🤖 ESP32 Dev Board
+- 📏 Ultrasonic Sensor
+- 👣 PIR Sensor
+- 🔊 Sound Sensor
+- 📍 Proximity Sensor
+- ❤️ Pulse Sensor
+- 📟 OLED Display
+- ⚙️ Motor Driver + Motors
+- 🔔 Buzzer
 ---
 
 ## 💻 Tech Stack
-- Embedded Systems: Arduino IDE (C/C++)
-- Communication: Wi-Fi (HTTP Protocol)
-- AI/ML: TensorFlow Lite (Optional)
-- Frontend: HTML, CSS, JavaScript
-- IoT: Real-time monitoring & automation
-
+- 🧠 Arduino IDE (C/C++)
+- 🌐 Wi-Fi (HTTP)
+- 🤖 TensorFlow Lite
+- 🎨 HTML, CSS, JavaScript
+- 📡 IoT Automation
 ---
 
 ## 🔄 Working Flow
