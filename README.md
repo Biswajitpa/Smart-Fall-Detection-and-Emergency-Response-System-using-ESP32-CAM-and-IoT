@@ -10,7 +10,7 @@ The system integrates multiple sensors and provides a live monitoring dashboard,
 ✔ Elderly safety systems
 ✔ Smart surveillance applications
 
-🎯 Key Highlights
+## 🎯 Key Highlights
 
 ✨ Real-time fall detection using ESP32-CAM
 ✨ Instant alert system (Motor + Buzzer)
