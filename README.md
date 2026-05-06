@@ -1,6 +1,9 @@
 # 🤖 AI Smart Fall Detection & Robotics Automation System
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=140&section=header&text=AI%20Fall%20Detection%20%26%20Robotics&fontSize=30&fontColor=ffffff">
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=140&section=header&text=AI%20Fall%20Detection%20%26%20Robotics&fontSize=30&fontColor=ffffff"
+    alt="AI Fall Detection Banner"
+  />
 </p>
 
 <p align="center">
