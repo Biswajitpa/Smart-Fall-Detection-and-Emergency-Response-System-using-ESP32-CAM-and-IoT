@@ -1,6 +1,6 @@
 # 🤖 AI Smart Fall Detection & Robotics Automation System
 <p align="center">
-  <img src="https://dummyimage.com/900x150/0f2027/ffffff&text=AI+Fall+Detection+%26+Robotics">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=900&height=120&lines=AI+Fall+Detection+%26+Robotics;ESP32+%7C+IoT+%7C+Embedded+AI;Smart+Safety+Automation;Real-Time+Monitoring+System">
 </p>
 
 <p align="center">
