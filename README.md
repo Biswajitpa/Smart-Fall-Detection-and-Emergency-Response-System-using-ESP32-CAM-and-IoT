@@ -1,5 +1,18 @@
 # 🤖 AI Smart Fall Detection & Robotics Automation System
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=140&section=header&text=AI%20Fall%20Detection%20%26%20Robotics&fontSize=30&fontColor=ffffff"/> </p> <p align="center"> <img src="https://readme-typing-svg.demolab.com?lines=AI+Fall+Detection+System;ESP32+%7C+IoT+%7C+Robotics;Smart+Safety+Automation;Real-Time+Monitoring&center=true&width=700&height=45"> </p> <p align="center"> <img src="https://img.shields.io/badge/ESP32-Robotics-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/AI-Fall Detection-red?style=for-the-badge"> <img src="https://img.shields.io/badge/IoT-Automation-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> </p> 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=140&section=header&text=AI%20Fall%20Detection%20%26%20Robotics&fontSize=30&fontColor=ffffff" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?lines=AI+Fall+Detection+System;ESP32+%7C+IoT+%7C+Robotics;Smart+Safety+Automation;Real-Time+Monitoring&center=true&width=700&height=45" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ESP32-Robotics-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-Fall%20Detection-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/IoT-Automation-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+</p>
 ## 🧠 Project Overview
 An AI-powered IoT + Robotics system that detects human falls using ESP32-CAM and responds in real-time using an ESP32 controller.
 
