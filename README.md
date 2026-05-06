@@ -69,7 +69,7 @@ An AI-powered IoT + Robotics system that detects human falls using ESP32-CAM and
 ## 🚀 Installation & Setup
 
 1. Clone Repository  
-   git clone https://github.com/your-username/your-repo.git  
+   git clone [https://github.com/your-username/your-repo.git](https://github.com/Biswajitpa/Smart-Fall-Detection-and-Emergency-Response-System-using-ESP32-CAM-and-IoT.git)  
 
 2. Upload Code  
    - ESP32-CAM firmware  
