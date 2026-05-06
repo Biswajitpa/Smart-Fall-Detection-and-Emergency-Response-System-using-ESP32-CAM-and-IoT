@@ -43,31 +43,43 @@ The system integrates multiple sensors and provides a live monitoring dashboard,
 - Communication: WiFi (HTTP Protocol)
 - AI Integration: TensorFlow Lite (optional)
 - Frontend: HTML, CSS, JavaScript
-- IoT Concepts: Real-time monitoring & automation
-🔄 Working Flow
+- IoT Concepts: Real-time monitoring & automatio
+
+
+---
+
+## 🔄 Working Flow
 
 1️⃣ ESP32-CAM captures environment
+             ↓
 2️⃣ Detects fall (AI / logic-based detection)
+             ↓
 3️⃣ Sends HTTP request to ESP32 Dev
+             ↓
 4️⃣ ESP32 triggers:
-
+             ↓             
 Motors 🚗
 Buzzer 🔔
+              
 5️⃣ Sensor data is displayed on dashboard
+              ↓
 🌐 Dashboard Preview
 <p align="center"> <img src="https://dummyimage.com/700x300/000/fff&text=Live+IoT+Dashboard+Preview"> </p>
-🚀 Installation & Setup
-🔧 Step 1: Clone Repository
+
+---
+
+## 🚀 Installation & Setup
+-🔧 Step 1: Clone Repository
 git clone https://github.com/your-username/your-repo.git
-🔧 Step 2: Upload Code
+-🔧 Step 2: Upload Code
 Upload ESP32-CAM code
 Upload ESP32 Dev Board code
-🔧 Step 3: Configure WiFi
+-🔧 Step 3: Configure WiFi
 const char* ssid = "YOUR_WIFI";
 const char* password = "YOUR_PASSWORD";
-🔧 Step 4: Run Dashboard
+-🔧 Step 4: Run Dashboard
 
-Open index.html in browser
+-Open index.html in browser
 
 📡 API Endpoints
 Endpoint	Function
@@ -107,4 +119,4 @@ If you like this project:
 
 “Building intelligent embedded systems that bridge AI and real-world safety.”
 
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=120&section=footer"/> </p>
+
