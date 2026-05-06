@@ -12,7 +12,7 @@ The system integrates multiple sensors and provides a live monitoring dashboard,
 
 ## 🎯 Key Highlights
 
-✨ Real-time fall detection using ESP32-CAM
+- ✨ Real-time fall detection using ESP32-CAM
 ✨ Instant alert system (Motor + Buzzer)
 ✨ Multi-sensor integration for environment monitoring
 ✨ Heart rate monitoring for health insights
