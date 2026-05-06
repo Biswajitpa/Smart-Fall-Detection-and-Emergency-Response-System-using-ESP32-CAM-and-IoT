@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Smart Monitoring System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      color: #38bdf8;
+      margin-top: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 12px;
+      width: 160px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .value {
+      font-size: 22px;
+      color: #22c55e;
+    }
+
+    .alert {
+      color: red;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    img {
+      width: 320px;
+      border-radius: 10px;
+      margin-top: 20px;
+      border: 2px solid #38bdf8;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🚀 AI Smart Monitoring Dashboard</h1>
+
+<div class="container">
+  <div class="card">Distance<div id="distance" class="value">--</div></div>
+  <div class="card">Sound<div id="sound" class="value">--</div></div>
+  <div class="card">Motion<div id="motion" class="value">--</div></div>
+  <div class="card">Proximity<div id="prox" class="value">--</div></div>
+  <div class="card">Heart Rate<div id="bpm" class="value">--</div></div>
+</div>
+
+<h2 id="status">System Status: INITIALIZING...</h2>
+
+<h2>📷 Camera</h2>
+<img id="cam" src="https://dummyimage.com/320x240/000/fff&text=Camera+Feed">
+
+<script>
+
+// 👉 CHANGE ONLY IF ESP WORKS
+const espIP = "http://10.74.94.53";
+
+// ===== DEMO DATA =====
+function demoData() {
+  return {
+    distance: Math.floor(Math.random() * 100),
+    sound: Math.random() > 0.5 ? "NOISE" : "SILENT",
+    motion: Math.random() > 0.7 ? 1 : 0,
+    proximity: Math.random() > 0.5 ? "NEAR" : "FAR",
+    bpm: 70 + Math.floor(Math.random() * 20)
+  };
+}
+
+// ===== UPDATE UI =====
+function updateUI(data) {
+  document.getElementById("distance").innerText = data.distance;
+  document.getElementById("sound").innerText = data.sound;
+  document.getElementById("motion").innerText = data.motion;
+  document.getElementById("prox").innerText = data.proximity;
+  document.getElementById("bpm").innerText = data.bpm;
+
+  if (data.bpm > 100 || data.motion == 1) {
+    document.getElementById("status").innerHTML = "⚠ ALERT DETECTED";
+    document.getElementById("status").className = "alert";
+  } else {
+    document.getElementById("status").innerHTML = "System Normal";
+    document.getElementById("status").className = "";
+  }
+}
+
+// ===== FETCH FROM ESP OR FALLBACK =====
+function updateData() {
+  fetch(espIP + "/data")
+    .then(res => res.json())
+    .then(data => updateUI(data))
+    .catch(() => {
+      // 🔥 IF ESP FAIL → USE DEMO DATA
+      updateUI(demoData());
+    });
+}
+
+// AUTO UPDATE
+setInterval(updateData, 1000);
+
+</script>
+
+</body>
+</html>
