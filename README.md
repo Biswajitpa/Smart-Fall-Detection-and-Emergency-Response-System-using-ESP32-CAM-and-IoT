@@ -11,19 +11,19 @@ An AI-powered IoT + Robotics system that detects human falls using ESP32-CAM and
 ---
 
 ## 🎯 Key Highlights
-- AI-based fall detection using ESP32-CAM
-- Robotics automation (motor-based response)
-- Instant alert system (buzzer + movement)
-- Multi-sensor environment monitoring
-- Heart rate monitoring
-- Live web dashboard
-- Wi-Fi communication (HTTP)
+- 🎯 Key Highlights
+- 🤖 Robotics automation (motor-based response)
+- 🧠 AI-based fall detection
+- 🔔 Instant alert system (buzzer + movement)
+- 📡 Multi-sensor monitoring
+- ❤️ Heart rate tracking
+- 🌐 Live dashboard
+- 📶 Wi-Fi communication
 
 ---
 
-## 🏗️ System Architecture
-ESP32-CAM → AI Detection → HTTP → ESP32 Controller → Motor + Buzzer  
-→ Sensors + Dashboard
+🏗️ System Architecture
+<p align="center"> <img src="https://dummyimage.com/800x250/000/fff&text=ESP32-CAM+→+AI+→+ESP32+→+Robot+→+Dashboard"> </p>
 
 ---
 
