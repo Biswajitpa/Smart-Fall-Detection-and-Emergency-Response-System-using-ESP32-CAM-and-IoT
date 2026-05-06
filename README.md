@@ -56,7 +56,10 @@ An AI-powered IoT + Robotics system that detects human falls using ESP32-CAM and
 5. Dashboard updates  
 
 ---
+## 🎥 Demo Preview
+<p align="center"> <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="500"> </p>
 
+--- 
 ## 🚀 Installation & Setup
 
 1. Clone Repository  
