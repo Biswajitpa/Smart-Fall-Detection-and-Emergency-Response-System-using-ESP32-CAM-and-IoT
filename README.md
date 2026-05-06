@@ -50,20 +50,19 @@ The system integrates multiple sensors and provides a live monitoring dashboard,
 
 ## 🔄 Working Flow
 
-1️⃣ ESP32-CAM captures environment
+- 1️⃣ ESP32-CAM captures environment
              ↓
-2️⃣ Detects fall (AI / logic-based detection)
+- 2️⃣ Detects fall (AI / logic-based detection)
              ↓
-3️⃣ Sends HTTP request to ESP32 Dev
+- 3️⃣ Sends HTTP request to ESP32 Dev
              ↓
-4️⃣ ESP32 triggers:
+- 4️⃣ ESP32 triggers:
              ↓             
-Motors 🚗
-Buzzer 🔔
+- Motors 🚗 , Buzzer 🔔
               
-5️⃣ Sensor data is displayed on dashboard
+- 5️⃣ Sensor data is displayed on dashboard
               ↓
-🌐 Dashboard Preview
+- 🌐 Dashboard Preview
 <p align="center"> <img src="https://dummyimage.com/700x300/000/fff&text=Live+IoT+Dashboard+Preview"> </p>
 
 ---
