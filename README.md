@@ -60,12 +60,5 @@ An **AI-powered IoT ecosystem** designed for real-time fall detection and health
 
 ### 1. Clone the Repository
 
-git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
-2. Configure WiFiOpen the source code and update your network credentials:C++const char* ssid = "YOUR_WIFI_NAME";
-const char* password = "YOUR_PASSWORD";
-3. Upload CodeFlash the ESP32-CAM sketch to the camera module.Flash the ESP32-Dev sketch to the main controller board.4. Run DashboardOpen index.html in any modern web browser to view real-time data.📡 API EndpointsEndpointFunction/fallTriggers immediate emergency alert system/dataFetches live JSON telemetry (BPM, Distance, etc.)🧪 Sample OutputPlaintextDistance: 45 cm
-Sound: NOISE
-Motion: 1
-Proximity: NEAR
-Heart Rate: 78 BPM
-🔮 Future Improvements🔥 Deep Learning: Deploying a fully trained .h5 model converted to TFLite.📱 Mobile App: Dedicated Android/iOS monitoring via Flutter.☁️ Cloud Storage: Integration with Firebase or AWS IoT Core.📍 GPS Integration: Real-time location tracking for emergency responders.👨‍💻 AuthorBiswajit Pattanaik🔗 LinkedIn Profile“Building intelligent embedded systems that bridge AI and real-world safety.”
+2. Configure WiFi
+Open the source code and update your network credentials:
