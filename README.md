@@ -21,7 +21,8 @@ The system integrates multiple sensors and provides a live monitoring dashboard,
 
 🏗️ System Architecture
 
-- ⚙️ Hardware Components
+---
+## 🔧 Hardware Components
 - 📷 ESP32-CAM (AI Vision Node)
 - 🤖 ESP32 Dev Board (Controller)
 📏 Ultrasonic Sensor (Distance)
