@@ -118,7 +118,7 @@ Heart Rate: 78 BPM
 
 ## 👨‍💻 Author
 Biswajit Pattanaik  
-https://linkedin.com/in/biswajit-pattanaik-3586b82b3  
+[https://linkedin.com/in/biswajit-pattanaik-3586b82b3  ](https://github.com/Biswajitpa)
 
 ---
 
