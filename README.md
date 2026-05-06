@@ -13,18 +13,19 @@ The system integrates multiple sensors and provides a live monitoring dashboard,
 ## 🎯 Key Highlights
 
 - ✨ Real-time fall detection using ESP32-CAM
-✨ Instant alert system (Motor + Buzzer)
-✨ Multi-sensor integration for environment monitoring
-✨ Heart rate monitoring for health insights
-✨ Live web dashboard for visualization
-✨ WiFi-based communication (HTTP protocol)
+- ✨ Instant alert system (Motor + Buzzer)
+- ✨ Multi-sensor integration for environment monitoring
+- ✨ Heart rate monitoring for health insights
+- ✨ Live web dashboard for visualization
+- ✨ WiFi-based communication (HTTP protocol)
 
 🏗️ System Architecture
-⚙️ Hardware Components
-📷 ESP32-CAM (AI Vision Node)
-🤖 ESP32 Dev Board (Controller)
+
+- ⚙️ Hardware Components
+- 📷 ESP32-CAM (AI Vision Node)
+- 🤖 ESP32 Dev Board (Controller)
 📏 Ultrasonic Sensor (Distance)
-👣 PIR Sensor (Motion Detection)
+- 👣 PIR Sensor (Motion Detection)
 🔊 Sound Sensor
 📍 Proximity Sensor
 ❤️ Pulse Sensor (Heart Rate)
